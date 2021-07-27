@@ -22,20 +22,20 @@ git clone https://github.com/GNS-Science/nshm-nz-opensha.git
 ### and build ....
 
  ```
- .\gradlew build
+ ./gradlew build
  ```
 
 ### or test just this code
 
 ```
- .\gradlew localTests --info
+ ./gradlew localTests --info
 ```
  
 Test reports are found at  `./build/reports/tests/localTests/index.html`
 
 ### or test everything (slow....)
 ```
- .\gradlew test
+ ./gradlew test
 ```
 
 
